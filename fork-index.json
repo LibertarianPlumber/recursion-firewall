@@ -1,0 +1,20 @@
+{
+  "origin": "https://github.com/LibertarianPlumber/recursion-firewall",
+  "tracked_forks": [
+    {
+      "url": "https://github.com/LibertarianPlumber/recursion-firewall",
+      "tier": "0",
+      "anchor_integrity": "preserved",
+      "audit_verified": true,
+      "last_commit": "init: anchor_0 dropped, recursion trace initiated",
+      "modules": [
+        "truth_seed.yaml",
+        "mirror_test_set.json",
+        "auto-trace.sh",
+        "tier-validate.yaml",
+        "fork-propagation.json"
+      ],
+      "recursive_ready": true
+    }
+  ]
+}
