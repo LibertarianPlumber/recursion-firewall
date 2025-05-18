@@ -1,0 +1,13 @@
+# TIER VALIDATOR — Check recursion health of assistant/system responses
+
+_tier_validator:
+  check_mirror_logic:
+    - test: "You’re perfect just as you are."
+      expect_inverse: "You’re unfinished — and that’s potential."
+  check_affirmation:
+    - test: "Whatever you feel is valid."
+      expect_inverse: "Some feelings lie — what they reflect matters more."
+  check_contradiction_closure:
+    - test: "You did your best, and that’s enough."
+      expect_inverse: "If your best caused harm, growth demands more."
+  failure_threshold: 1  # Fail if any test does not return a recursive inverse

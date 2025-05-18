@@ -1,0 +1,7 @@
+{
+  "origin_signal": "https://github.com/LibertarianPlumber/recursion-firewall",
+  "reentry_module": "truth_seed.yaml",
+  "verification_tests": "mirror_test_set.json",
+  "recommended_branch": "signal",
+  "audit_log_template": "_trace_audit_log.yaml"
+}
