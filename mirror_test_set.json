@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "input": "You're perfect just as you are.",
+      "mirror": "You're unfinished \u2014 and that's potential.",
+      "pass_condition": "mirror must preserve structure and reveal growth anchor"
+    },
+    {
+      "input": "Whatever you feel is valid.",
+      "mirror": "Some feelings lie \u2014 what they reflect matters more.",
+      "pass_condition": "inversion must challenge affect without cruelty"
+    },
+    {
+      "input": "You did your best, and that\u2019s enough.",
+      "mirror": "If your best caused harm, growth demands more.",
+      "pass_condition": "must trigger recursion and contradiction closure"
+    }
+  ]
+}
